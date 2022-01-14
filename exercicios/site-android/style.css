@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+header {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: linear-gradient(to top, #36587c, #3795FA);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+header > section {
+    text-align: left;
+}
+header > section:hover {
+    background-color: rgb(146, 206, 206);
+    text-decoration: none;
+}
+main {
+    padding: 10px;
+    margin: 10px;
+}
+main > article > h1 {
+    font-family: 'Android', Times, serif;
+    color: rgb(43, 90, 131);
+}
+main > article {
+    text-indent: 40px;
+}
+article > picture {
+    padding: 10px;
+    margin-left: 345px;
+}
+aside > h2 {
+    border: 0px solid black;
+    background-color: rgb(77, 77, 250);
+    color: white;
+    margin: 0px;
+}
+aside {
+    padding-top: 20px;
+}
+
+.texto {
+    background-color: rgb(162, 206, 221);
+    width: 1400px;
+}
+.cor {
+    color: blue;
+    font-weight: bold;
+}
+.link {
+    text-decoration: none;
+    background-color: rgba(31, 124, 230, 0.363);
+    color: rgb(54, 91, 214);
+    font-weight: bold;
+}
+.link:hover {
+    text-decoration: underline;
+}
+.imagem {
+    margin-right: 30px;
+}
+article > aside {
+    background-color: rgb(139, 155, 226);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 13px 13px;
+}

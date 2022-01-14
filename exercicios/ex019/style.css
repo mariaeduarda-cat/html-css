@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* 
+   em HTML é 'id' em CSS é # (só pode um elemento por página, ou seja NÃO PODE COLOCAR DOIS "ID'S" NO MESMO DOCUMENTO HTML)
+   em HTML é 'class' em CSS é . (pode vários elementos)
+   as pseudoclasses são indicaodas por : (dois pontos)
+   os pseudoelementos são indicados por :: (dois pontos x2)
+*/
+
+body {
+    background-color: #a1d3b9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: #173129
+}
+h1#principal {
+    text-align: center;
+    background-color: rgb(77, 124, 93);
+    color: white;
+}
+h2 {
+    color: #35c541;
+}
+.basico {
+    color: #28a03c;
+}
+.intermediario {
+    color: #dbc023;
+}
+.avancado {
+    color: #f05c42;
+}
+.destaque {
+    background-color: #c5c56070;
+}
