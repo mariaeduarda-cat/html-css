@@ -3,4 +3,4 @@
 
  Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
- <a href= "https://shirocat2.github.io/html-css/exercicios/site - teste/index.html"> Executar site teste</a>
+ <a href= "https://shirocat2.github.io/html-css/exercicios/site-teste/index.html"> Executar site teste</a>
