@@ -5,6 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <title>Jogos</title>
+    <style>
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+        a:visited {
+            color: rgb(37, 153, 192);
+        }
+        a:active {
+            color: blue;
+        }
+        .especial::before {
+            content: '⇒' ;
+        }
+        .especial::after {
+            content: '⇐' ;
+        }
+    </style>
 </head>
 <body>
    <h1>Página de Jogos</h1>
@@ -17,7 +39,7 @@
        <p>Nomeado como O Melhor Jogo do Ano em 2021. Clique nos links abaixo para mais informações:</p>
        <ul type="square">
            <li>
-             <a href="https://www.ea.com/pt-br/games/it-takes-two/about" target="_blank" rel="external">Site oficial - It Takes Two</a>  
+             <a href="https://www.ea.com/pt-br/games/it-takes-two/about" target="_blank" rel="external" class='especial'>Site oficial - It Takes Two</a>  
            </li> 
            <li>
                <a href="https://thegameawards.com/" target="_blank" rel="external">Site Game Awards</a>
