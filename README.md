@@ -3,4 +3,4 @@
 
  Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
- <a href= "https://mariaeduarda-cat.github.io/html-css/exercicios/site-android2.0/android2.0.html"> Executar página</a>
+ <a href= "https://mariaeduarda-cat.github.io/html-css/exercicios/site-android2.0/android2.0.html"> Executar site Android</a>
